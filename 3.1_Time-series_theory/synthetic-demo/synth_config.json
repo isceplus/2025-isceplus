@@ -1,5 +1,5 @@
 {
-  "output_dir": "./synth-data",
+  "output_dir": ".",
   "bounding_box": [
     -117.7,
     34.95,
