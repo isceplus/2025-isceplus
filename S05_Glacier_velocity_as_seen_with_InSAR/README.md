@@ -1,5 +1,5 @@
-# Glacier Velocity Mapping with InSAR
-2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
+# Glacier velocity as seen with InSAR
+From the original course, 2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
 Instructors: Paul Rosen, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Brent Minchew, Hilarie Davis, Zhang Yunjun
 
