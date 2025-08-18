@@ -1,5 +1,5 @@
 {
-  "output_dir": ".",
+  "output_dir": "./synthetic-demo",
   "custom_covariance": {
     "gamma_inf": 0.00,
     "tau0": 60.0,
