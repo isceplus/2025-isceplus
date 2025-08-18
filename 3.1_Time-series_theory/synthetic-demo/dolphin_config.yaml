@@ -1,0 +1,35 @@
+input_options:
+  cslc_date_fmt: '%Y%m%d'
+  wavelength: 0.0554
+work_directory: .
+worker_settings:
+  gpu_enabled: true
+  n_parallel_bursts: 1
+  threads_per_worker: 2
+# REQUIRED: list of CSLC files, or newline-delimited file containing list of CSLC files.
+cslc_file_list: "slcs/*.slc.tif"
+output_options:
+  strides:
+    x: 2
+    y: 2
+ps_options:
+  # Amplitude dispersion threshold to consider a pixel a PS.
+  amp_dispersion_threshold: 0.0
+phase_linking:
+  # Size of the ministack for sequential estimator.
+  ministack_size: 15
+  half_window:
+    x: 5
+    y: 5
+  use_evd: false
+  zero_correlation_threshold: 0.0
+  shp_method: glrt
+  shp_alpha: 0.001
+  write_crlb: false
+interferogram_network:
+  reference_idx: 0
+  max_bandwidth:
+  max_temporal_baseline:
+unwrap_options:
+  # Whether to run the unwrapping step after wrapped phase estimation.
+  run_unwrap: false
