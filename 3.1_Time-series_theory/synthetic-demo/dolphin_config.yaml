@@ -17,7 +17,7 @@ ps_options:
   amp_dispersion_threshold: 0.0
 phase_linking:
   # Size of the ministack for sequential estimator.
-  ministack_size: 15
+  ministack_size: 30
   half_window:
     x: 5
     y: 5
@@ -25,7 +25,7 @@ phase_linking:
   zero_correlation_threshold: 0.0
   shp_method: glrt
   shp_alpha: 0.001
-  write_crlb: false
+  write_crlb: true
 interferogram_network:
   reference_idx: 0
   max_bandwidth:
