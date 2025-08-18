@@ -1,5 +1,4 @@
-# Geographic Information Science using GDAL
-
+# Manipulating and reprojecting data with GDAL
 **Resource:**
 
 + 01_IntroTo_RasterData.ipynb
